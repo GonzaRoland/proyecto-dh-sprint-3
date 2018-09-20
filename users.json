@@ -1,0 +1,25 @@
+{"username":"rodo","email":"rodo@digitalhouse.com","password":"$2y$10$756OAHF0VzAhVcPz4UjwP.TTZcjjMOTUpbVaWewce2vQDRfFaMhuC","role":1,"id":1}
+{"username":"danteR","email":"dante@gmail.com","password":"$2y$10$DhssToDsCY1Me\/yUwURPfuIJYCfAIRyzQNyeOC.xiXqVYi.2xCfE.","role":1,"id":2}
+{"username":"rod","email":"rodo@digitalhouse.com","password":"$2y$10$09zhYyORZQS4BRk5jgaaJ.Milx1FWOyhIcEv0dWMahMZO3sZd83Ke","role":1,"id":3}
+{"username":"groland","email":"gonzalo.roland@gmail.com","password":"$2y$10$NO.FqbBa5tCHAeTTzP4SNe\/0a3gD1srWg59MtkMnAcd.lygykKDYW","role":1,"id":4}
+{"username":"ajusto","name":"Angie","lastname":"Justo","email":"angie@angie.com","password":"$2y$10$E3BqnPeGHCFOJBS6x36IpeQ.rv6\/KcWzvHtBhXlbaeDZucFfase\/i","role":1,"id":5}
+{"username":"prueba","name":"Prueba","lastname":"Prueba","email":"prueba@prueba.com","password":"$2y$10$qyMF.OjvtaSACsl5PGNuRuFjbNxoelzmtTAXbk\/Qay3oZjBu2Kwyi","genre":"m","role":1,"id":6}
+{"username":"pruebamujer","name":"PruebaM","lastname":"Mujer","email":"prueba@mujer.com","password":"$2y$10$EekYBG4O3numPkLuaUkkfe8smNrxYyvx03WqH.j2cOq3c6WNry2di","genre":"f","role":1,"id":7}
+{"username":"avatarprueba","name":"avatar","lastname":"prueba","email":"avatar@prueba.com","password":"$2y$10$.Y9QJ7Xa1dhjZlhPlJa3o.mbehBiUjckEsUX\/.kwGuXY\/DEy\/NxSW","genre":"o","role":1,"id":8}
+{"username":"cosoo","name":"coso","lastname":"coso","email":"coso@cosito.com","password":"$2y$10$EEsKtgVg9oDcdhIAha7yEOFQhuyKVVW570OAsojHL3Kp.U8AcYCoC","genre":null,"role":1,"id":9}
+{"username":"avatar","name":"Pruebo","lastname":"Pruebo","email":"avatar@avatar.com","password":"$2y$10$NGkXysMe84ahbjIaZKsKOu9RELSVjxc0bGxGW34tw2wK83nPWIuku","genre":"o","role":1,"id":10}
+{"username":"otroavatar","name":"Otro","lastname":"Avatar","email":"otro@avatar.com","password":"$2y$10$\/XWsnOtQZu\/jJW6khDIVv.Wej\/hPYChkJtsOsHjNBIOHQFRs1Yzgq","genre":"o","role":1,"id":11}
+{"username":"avatar3","name":"avatar","lastname":"tres","email":"avatar@3.com","password":"$2y$10$SHLlV7QHBJmZSRdGl68jp.TvQP2Byiqj89Sd1tFykRrZvSQ4L4ND.","genre":"o","role":1,"id":12}
+{"username":"avatar4","name":"avatar","lastname":"cuatro","email":"avatar@4.com","password":"$2y$10$m2GeZXsras3eGOWQlmyAEu.FfO\/5P2u7Oc6P1\/dJ\/Csm8CqDUmxn6","genre":"o","role":1,"id":13}
+{"username":"avatar5","name":"avatar","lastname":"cinco","email":"avatar@5.com","password":"$2y$10$K.2gHV8KvY30sZ\/zydMhEev8F24VtUnW0b4\/3OjyIlogVbLRzDWOO","genre":"o","role":1,"id":14}
+{"username":"avatar6","name":"avatar","lastname":"sei","email":"avatar@6.com","password":"$2y$10$bG5h6cw4XV.4kJyEYYevyOw7jnCBh3wGoDpCzTZUpfEWO9zhmQXPO","genre":"o","role":1,"id":15}
+{"username":"asdas","name":"asda","lastname":"advad","email":"zasda@asca.com","password":"$2y$10$xQV6G9\/OM1WTc2ljxbacMOFQXFAXN4dlVYGj6UdLikWvzjRpKiNsu","genre":"o","role":1,"id":16}
+{"username":"afa","name":"asda","lastname":"vaeva","email":"asfae@avea.com","password":"$2y$10$XvL9R36as7mxsJOI5QYjaeXiwKhrzdkTL8Vn3BpYPshbXD4UqqShy","genre":"o","role":1,"id":17}
+{"username":"qwdas","name":"asda","lastname":"efvae","email":"asda@vdae.com","password":"$2y$10$VMG62pM8x9143yUaZDACwuX7kbKwIGwjGnPiRTL90smIkdJmSZVEC","genre":"o","role":1,"id":18}
+{"username":"aaaa","name":"asda","lastname":"asa","email":"aaa@casca.com","password":"$2y$10$ySe16w5HpjC70FSf7oMWsuVzX5IMK0gh4suokMVqnrv\/tb3i64Q2i","genre":"o","role":1,"id":19}
+{"username":"vadva","name":"asda","lastname":"vaeva","email":"vaeva@cea.co","password":"$2y$10$cp4Q2KzdFLW7Bd0t6o1dce9qdalHkmDL8Qzy4ZZiXBqvLexIAWAE6","genre":"o","role":1,"id":20}
+{"username":"aaa","name":"aaaa","lastname":"dddd","email":"sdasda@caca.co","password":"$2y$10$l3KP1Hi8UMVg8RgKtAr1o.MCqAs11UR05N68gUT3A.9c6l4YQyeUe","genre":"o","role":1,"id":21}
+{"username":"VDVAD","name":"AAA","lastname":"BBB","email":"ASDAS@CASCA.COM","password":"$2y$10$TrsIa6hUKtfsNCKB7xn\/cu3l0un0qp7Hkav9mdLp2AHabDsF53HFy","genre":"o","role":1,"id":22}
+{"username":"sdfds","name":"aaa","lastname":"safcdvfsb gf","email":"gonzalor@mural.co","password":"$2y$10$Sj\/s78Xuzw2TWVwQ.\/ip4.rdfBXiPEiYexL7VHpp8JjTJJLIMbPwC","genre":null,"role":1,"id":23}
+{"username":"gonzalogonza","name":"Gonzalo","lastname":"Roland","email":"gonzalo@gonza.com","password":"$2y$10$5leyn6OF01cIpgWRYnqmmuXGBJ19Mo1mIZzGFT6OJj76RkaieBeWq","genre":"m","role":1,"id":24}
+{"username":"usuarioprueba","name":"Usuario","lastname":"Prueba","email":"usuario@prueba.com","password":"$2y$10$hqsrCQcuo1bISs4XISodn.M.BMSp\/jBSWL0gTyJjs1sKOpmpkjdwO","genre":"o","role":1,"id":25}
