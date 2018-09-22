@@ -50,6 +50,13 @@ class JSONDB extends DB
         file_put_contents('users.json', $jsonUser . PHP_EOL, FILE_APPEND);
     }
 
+    // Save Product
+    public function saveProduct($prod)
+    {
+        $jsonProd = json_encode($Prod);
+        file_put_contents('products.json', $jsonProd . PHP_EOL, FILE_APPEND);
+    }
+
     public function userArray($data)
     {
         $usuario = [
@@ -65,7 +72,21 @@ class JSONDB extends DB
         $usuario['id'] = $this->idGenerate();
 
         return $usuario;
+    }
 
+    //Product Array
+    public function productArray($data)
+    {
+        $product = [
+            'name' => $data['nombre'],
+            'code' => $data['codigo'],
+            'price' => $data['precio'],
+            'description' => $data['descripcion']
+        ];
+
+        $product['id'] = $this->idGenerate();
+
+        return $product;
     }
 
     public function idGenerate()
@@ -90,6 +111,20 @@ class JSONDB extends DB
         $miArchivo = dirname(__DIR__);
         $miArchivo = $miArchivo . "/img/user_avatars/";
         $miArchivo = $miArchivo. "perfil" . $id . "." . $ext;
+        $miArchivo = str_replace('/', DIRECTORY_SEPARATOR, $miArchivo);
+        move_uploaded_file($archivo, $miArchivo);
+    }
+
+    //Save Product Photo
+    public function saveProductPhoto($product)
+    {
+        $id = $product["id"];
+        $nombre = $_FILES["photo"]["name"];
+        $archivo = $_FILES["photo"]["tmp_name"];
+        $ext = pathinfo($nombre, PATHINFO_EXTENSION);
+        $miArchivo = dirname(__DIR__);
+        $miArchivo = $miArchivo . "/img/products_photos/";
+        // $miArchivo = $miArchivo. "perfil" . $id . "." . $ext; Dejo comentada ésta línea porque todavía no tenemos a dónde linkear el producto que cargamos
         $miArchivo = str_replace('/', DIRECTORY_SEPARATOR, $miArchivo);
         move_uploaded_file($archivo, $miArchivo);
     }

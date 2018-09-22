@@ -50,6 +50,31 @@ class Validator
 
     }
 
+    //Validaciones para Productos
+    public static function regProdValidate ($data){
+
+        $errors = [];
+
+        $nombre = trim($data['nombre']);
+        if($nombre == "") {
+            $errors['name'] = "Ingrese el nombre del producto.";
+        }
+
+        $codigo = trim($data['codigo']);
+        if($codigo == "") {
+            $errors['code'] = "Ingrese el código del producto.";
+        }
+
+        $precio = trim($data['precio']);
+        if($precio == "") {
+            $errors['price'] = "Ingresá el precio del producto.";
+        } //elseif (!is_numeric($data)) {
+        //     $errors['price'] = "El precio sólo puede contener números";
+        // } No funciona, si pongo sólo números también me da el error
+
+        return $errors;
+    }
+
     public static function fileValidate($data)
     {
         $errores = [];
@@ -67,6 +92,26 @@ class Validator
         else 
         {
             $errores["avatar"] = "Hubo un error al procesar el archivo";
+        }
+        return $errores;
+    }
+
+    public static function productFileValidate($data)
+    {
+        $errores = [];
+
+        if ($data["foto"]["error"] === UPLOAD_ERR_OK) 
+        {
+            $nombre = $data["foto"]["name"];
+            $ext = pathinfo($nombre, PATHINFO_EXTENSION);
+            if ($ext != "jpg" && $ext != "png" && $ext != "jpeg") 
+            {
+                $errores["foto"] = "Solo admitimos formatos jpg y png";
+            } 
+        } 
+        else 
+        {
+            $errores["foto"] = "Hubo un error al procesar el archivo";
         }
         return $errores;
         }
