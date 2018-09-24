@@ -3,6 +3,23 @@
 include_once 'helpers.php';
 include_once 'loader.php';
 
+if ($auth->check() == true) 
+{
+    if ($_SESSION) 
+    {
+        $usuario = $usersDb->dbEmailSearch($_SESSION['logged']);
+
+        if ($auth->checkRole($usuario) == false)
+        {
+            echo '<h1 class="error-carga">No tienes permiso para acceder a esta página</h1>';
+            exit;
+        }
+    }
+} else 
+{
+    redirect('login.php');
+}
+
 $nombre = "";
 $codigo = "";
 $precio = "";
@@ -31,8 +48,8 @@ if($_POST) {
             $productsDb->saveProduct($product); //Guarda el JSON pero vacío =/
             // dd($productsDb);
             $productsDb->saveProductPhoto($product); //No guarda la img =/
-            dd($errores);
-            redirect('cargaProd.php');
+            //dd($errores);
+            redirect('main.php');
         }
     }
 }

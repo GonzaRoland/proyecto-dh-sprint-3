@@ -53,7 +53,7 @@ class JSONDB extends DB
     // Save Product
     public function saveProduct($prod)
     {
-        $jsonProd = json_encode($Prod);
+        $jsonProd = json_encode($prod);
         file_put_contents('products.json', $jsonProd . PHP_EOL, FILE_APPEND);
     }
 
@@ -119,12 +119,12 @@ class JSONDB extends DB
     public function saveProductPhoto($product)
     {
         $id = $product["id"];
-        $nombre = $_FILES["photo"]["name"];
-        $archivo = $_FILES["photo"]["tmp_name"];
+        $nombre = $_FILES["foto"]["name"];
+        $archivo = $_FILES["foto"]["tmp_name"];
         $ext = pathinfo($nombre, PATHINFO_EXTENSION);
         $miArchivo = dirname(__DIR__);
-        $miArchivo = $miArchivo . "/img/products_photos/";
-        // $miArchivo = $miArchivo. "perfil" . $id . "." . $ext; Dejo comentada ésta línea porque todavía no tenemos a dónde linkear el producto que cargamos
+        $miArchivo = $miArchivo . "/img/product_photos/";
+        $miArchivo = $miArchivo. "product" . $id . "." . $ext; //Dejo comentada ésta línea porque todavía no tenemos a dónde linkear el producto que cargamos
         $miArchivo = str_replace('/', DIRECTORY_SEPARATOR, $miArchivo);
         move_uploaded_file($archivo, $miArchivo);
     }

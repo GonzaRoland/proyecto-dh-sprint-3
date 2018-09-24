@@ -21,5 +21,6 @@
 {"username":"aaa","name":"aaaa","lastname":"dddd","email":"sdasda@caca.co","password":"$2y$10$l3KP1Hi8UMVg8RgKtAr1o.MCqAs11UR05N68gUT3A.9c6l4YQyeUe","genre":"o","role":1,"id":21}
 {"username":"VDVAD","name":"AAA","lastname":"BBB","email":"ASDAS@CASCA.COM","password":"$2y$10$TrsIa6hUKtfsNCKB7xn\/cu3l0un0qp7Hkav9mdLp2AHabDsF53HFy","genre":"o","role":1,"id":22}
 {"username":"sdfds","name":"aaa","lastname":"safcdvfsb gf","email":"gonzalor@mural.co","password":"$2y$10$Sj\/s78Xuzw2TWVwQ.\/ip4.rdfBXiPEiYexL7VHpp8JjTJJLIMbPwC","genre":null,"role":1,"id":23}
-{"username":"gonzalogonza","name":"Gonzalo","lastname":"Roland","email":"gonzalo@gonza.com","password":"$2y$10$5leyn6OF01cIpgWRYnqmmuXGBJ19Mo1mIZzGFT6OJj76RkaieBeWq","genre":"m","role":1,"id":24}
+{"username":"gonzalogonza","name":"Gonzalo","lastname":"Roland","email":"gonzalo@gonza.com","password":"$2y$10$5leyn6OF01cIpgWRYnqmmuXGBJ19Mo1mIZzGFT6OJj76RkaieBeWq","genre":"m","role":2,"id":24}
 {"username":"usuarioprueba","name":"Usuario","lastname":"Prueba","email":"usuario@prueba.com","password":"$2y$10$hqsrCQcuo1bISs4XISodn.M.BMSp\/jBSWL0gTyJjs1sKOpmpkjdwO","genre":"o","role":1,"id":25}
+{"username":"frefe","name":"eefe","lastname":"fefe","email":"efae@veava.com","password":"$2y$10$mrArvZeeCekqvwa0LRtRuu\/Wkx0EjkY2kW\/SX2caqB75nv8Upk5za","genre":null,"role":1,"id":26}

@@ -1,5 +1,7 @@
 <?php
 
+
+
 class Auth
 {
     public function __construct()
@@ -28,6 +30,16 @@ class Auth
     public function check()
     {
         return isset($_SESSION['logged']);
+    }
+
+    public function checkRole($usuario){        
+        //$usuario = $usersDb->dbEmailSearch($data);
+        if($usuario['role'] == 2) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
 

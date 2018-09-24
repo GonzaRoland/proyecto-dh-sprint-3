@@ -26,6 +26,11 @@ body {
 
 }
 
+.error-carga {
+    margin-top: 200px;
+    margin-left: 640px;
+}
+
 .main-header {
     margin: 0px 0px 10px 0px;
     display: flex;
