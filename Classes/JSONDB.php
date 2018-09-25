@@ -124,7 +124,7 @@ class JSONDB extends DB
         $ext = pathinfo($nombre, PATHINFO_EXTENSION);
         $miArchivo = dirname(__DIR__);
         $miArchivo = $miArchivo . "/img/product_photos/";
-        $miArchivo = $miArchivo. "product" . $id . "." . $ext; //Dejo comentada ésta línea porque todavía no tenemos a dónde linkear el producto que cargamos
+        $miArchivo = $miArchivo. "product" . $id . "." . $ext; 
         $miArchivo = str_replace('/', DIRECTORY_SEPARATOR, $miArchivo);
         move_uploaded_file($archivo, $miArchivo);
     }

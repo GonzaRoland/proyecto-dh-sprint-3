@@ -35,22 +35,14 @@ if($_POST) {
     $precio = $_POST['precio'];
     $descripcion = $_POST['descripcion'];
 
-    $errores = $validator->regProdValidate($_POST); //OK
-    // dd($nombre, $codigo, $precio, $descripcion, $errores);
+    $errores = $validator->regProdValidate($_POST); 
     if(count($errores) == 0) {
-        // dd($nombre, $codigo, $precio, $descripcion, $errores);
-        $product = $productsDb->productArray($_POST); //OK
-        // dd($product);
-        $errores = $validator->productFileValidate($_FILES); //OK
-        // dd($errores);
-        if(count($errores) == 0) //OK
+        $product = $productsDb->productArray($_POST); 
+        $errores = $validator->productFileValidate($_FILES); 
+        if(count($errores) == 0)
         {
-            // dd($errores);
-            // dd($product);
-            $productsDb->saveProduct($product); //Guarda el JSON pero vacío =/
-            // dd($productsDb);
-            $productsDb->saveProductPhoto($product); //No guarda la img =/
-            //dd($errores);
+            $productsDb->saveProduct($product);
+            $productsDb->saveProductPhoto($product);
             redirect('main.php');
         }
     }

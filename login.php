@@ -1,5 +1,4 @@
 <?php
-//require 'funciones.php';
 include_once 'helpers.php';
 include_once 'loader.php';
 
@@ -24,7 +23,7 @@ if($_POST) {
         $errores = $validator->loginValidate($_POST, $usuario);
         if(count($errores) == 0) {
                 $auth->login($email);
-                redirect('dogo.php?pagina=perfil');
+                redirect('perfil.php');
            
             }
         }    

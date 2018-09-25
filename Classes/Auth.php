@@ -15,7 +15,7 @@ class Auth
     {
         $_SESSION['logged'] = $email;
         setcookie('logged', $email, time() + 3600 * 2);
-        //redirect('Location: dogo.php?pagina=perfil');
+        
     }
 
     public function logout()
@@ -33,7 +33,6 @@ class Auth
     }
 
     public function checkRole($usuario){        
-        //$usuario = $usersDb->dbEmailSearch($data);
         if($usuario['role'] == 2) {
             return true;
         } else {
