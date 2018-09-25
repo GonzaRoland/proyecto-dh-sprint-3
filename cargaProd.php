@@ -97,7 +97,7 @@ if($_POST) {
                                 <label for="descripcion">Descripción del Producto</label>
                                 <br>
 
-                                <textarea name="descripcion" placeholder="Ingrese la Descripción del Producto"></textarea>
+                                <textarea name="descripcion" style="width:400px; height:150px;"  placeholder="Ingrese la Descripción del Producto"></textarea>
                             
                                 <br>
                                 <br>

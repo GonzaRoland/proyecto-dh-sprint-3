@@ -1,0 +1,2 @@
+- Resta agregar una página de perfil como la gente (la actual lo único que hace es levantar el avatar).
+- Se agregó un formulario de ingreso de productos (cargaProd.php) el cual primero valida que exista una sesión y luego valida que el usuario tenga rol "2" para mostrarla. Modificar rol a mano en el json para verificar su funcionamiento.
