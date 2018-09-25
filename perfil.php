@@ -4,7 +4,7 @@ include_once 'helpers.php';
 include_once 'loader.php';      
 
 if (!$_GET) {
-    header('Location: dogo.php?pagina=perfil');
+    redirect('dogo.php?pagina=perfil');
 }
 
 if ($auth->check() == false)

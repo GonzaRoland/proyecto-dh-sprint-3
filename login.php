@@ -3,7 +3,7 @@ include_once 'helpers.php';
 include_once 'loader.php';
 
 if (!$_GET) {
-    header('Location: dogo.php?pagina=login');
+    redirect('dogo.php?pagina=login');
 }
 
 if($auth->check()) {
@@ -39,28 +39,29 @@ if($_POST) {
                 <div align="center">
                     <form action="" method="post">
                         <fieldset class="login-form">
-                            <label for="user">Correo Electrónico</label>
+                            <h2>Iniciar sesión</h2>
                             <br>
-                            <input class="form-input" type="text" value="<?= $email ?>"name="email" placeholder="Correo Electrónico">
+                            
+                            <input class="form-input" type="text" value="<?= $email ?>"name="email" placeholder=" Correo Electrónico">
                             
                             <?php if(isset($errores['email'])):?>
                                 <div class="alert"><p><strong><?=$errores['email']?></strong></p></div>
-                            <?php endif;?>
+                            <?php endif;?><br>
                             
-                            <label for="password">Contraseña</label>
-                            <br>
-                            <input class="form-input" type="password" name="password" placeholder="Contraseña">
+                            <h4><label for="password"></label></h4>
+                            
+                            <input class="form-input" type="password" name="password" placeholder=" Contraseña">
 
                             <?php if(isset($errores['password'])) :?>
                                 <div class="alert"><p><strong><?= $errores['password'] ?></strong></p></div>
-                            <?php endif; ?>
-
-                        </fieldset>
-                        <div align="center" class="login-buttons">  
-                            <br>
+                            <?php endif; ?><br>
+                            
+                            
                             <button class="btn" type="submit">ENVIAR</button>
                             <button class="btn" type="reset">BORRAR</button>
-                        </div>
+                            
+                        </fieldset>
+                       
                     </form>
                 </div>  
                 </section>

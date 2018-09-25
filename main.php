@@ -1,8 +1,8 @@
 
-            <?PHP
+<?PHP
 
 if (!$_GET) {
-    header('Location: dogo.php?pagina=main');
+    redirect('dogo.php?pagina=main');
 }
 
 ?>

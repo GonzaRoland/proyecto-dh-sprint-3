@@ -50,7 +50,7 @@ class JSONDB extends DB
         file_put_contents('users.json', $jsonUser . PHP_EOL, FILE_APPEND);
     }
 
-    // Save Product
+    
     public function saveProduct($prod)
     {
         $jsonProd = json_encode($prod);
@@ -74,7 +74,7 @@ class JSONDB extends DB
         return $usuario;
     }
 
-    //Product Array
+    
     public function productArray($data)
     {
         $product = [
@@ -115,7 +115,7 @@ class JSONDB extends DB
         move_uploaded_file($archivo, $miArchivo);
     }
 
-    //Save Product Photo
+    
     public function saveProductPhoto($product)
     {
         $id = $product["id"];

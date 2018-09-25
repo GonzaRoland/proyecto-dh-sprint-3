@@ -1,7 +1,7 @@
 <?PHP
 
 if (!$_GET) {
-    header('Location: dogo.php?pagina=frecuentes');
+    redirect('dogo.php?pagina=frecuentes');
 }
 
 ?>
@@ -26,7 +26,7 @@ if (!$_GET) {
 				</div>
 				<div>
 					<input id="ac-2" name="accordion-1" type="checkbox" />
-					<label for="ac-2">¿Cuanto debo vacunar a mi perro o gato y de qué?</label>
+					<label for="ac-2">¿Cuando vacunar a mi perro o gato y de qué?</label>
 					<article class="ac-medium">
 						<p>Debes iniciar un plan de vacunación desde los 25 días con la vacuna para el Parvovirus, y revacunar a los 15 días; sin embargo lo mas indicado es visitar al Médico Veterinario, quien te dará el programa de vacunación completo. </p>
 					</article>

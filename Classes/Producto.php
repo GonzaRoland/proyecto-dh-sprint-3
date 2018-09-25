@@ -17,7 +17,7 @@ class Producto
         $this->precio = $precio;
     }
 
-    //ID
+   
     public function getId()
     {
         return $this->id;
@@ -28,7 +28,7 @@ class Producto
         $this->id = $id;
     }
 
-    //NOMBRE
+    
     public function getNombre()
     {
         return $this->nombre;
@@ -39,7 +39,7 @@ class Producto
         $this->nombre = $nombre;
     }
 
-    //DESCRIPCION
+    
     public function getDescripcion()
     {
         return $this->descripcion;
@@ -50,7 +50,7 @@ class Producto
         $this->nombre = $nombre;
     }
 
-    //CODIGO
+    
     public function getCodigo()
     {
         return $this->codigo;
@@ -61,7 +61,7 @@ class Producto
         $this->codigo = $codigo;
     }
 
-    //PRECIO
+    
     public function getPrecio()
     {
         return $this->precio;

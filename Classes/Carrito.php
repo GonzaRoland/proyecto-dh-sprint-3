@@ -18,11 +18,6 @@ class Carrito
         return $this->usuario;
     }
 
-    /**
-     * Set the value of usuario
-     *
-     * @return  self
-     */ 
     public function setUsuario($usuario)
     {
         $this->usuario = $usuario;
@@ -36,12 +31,7 @@ class Carrito
         return $this->productos;
     }
 
-    /**
-     * Set the value of productos
-     *
-     * @return  self
-     */ 
-    public function setProductos($producto)
+        public function setProductos($producto)
     {
         $this->productos[] = $producto;
     }

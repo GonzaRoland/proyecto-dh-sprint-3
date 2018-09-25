@@ -25,3 +25,4 @@
 {"username":"usuarioprueba","name":"Usuario","lastname":"Prueba","email":"usuario@prueba.com","password":"$2y$10$hqsrCQcuo1bISs4XISodn.M.BMSp\/jBSWL0gTyJjs1sKOpmpkjdwO","genre":"o","role":1,"id":25}
 {"username":"frefe","name":"eefe","lastname":"fefe","email":"efae@veava.com","password":"$2y$10$mrArvZeeCekqvwa0LRtRuu\/Wkx0EjkY2kW\/SX2caqB75nv8Upk5za","genre":null,"role":1,"id":26}
 {"username":"asdsa","name":"Prueba","lastname":"Usuariosss","email":"asdsa@varevar.com","password":"$2y$10$\/HYRpvNrRsqRuFdY2aE4e.s39\/Br8L7wJWvkAnljQucqyonJZeZL6","genre":null,"role":1,"id":27}
+{"username":"prueba","name":"afa","lastname":"aedfa","email":"otra@prueba.com","password":"$2y$10$hgKXw.5\/Sc9FIzS0EWIoFuwteApDl12JmLTHVOvhibn9R.4MgeAYe","genre":null,"role":1,"id":28}

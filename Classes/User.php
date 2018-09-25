@@ -23,11 +23,7 @@ class User
         return $this->id;
     }
 
-    /**
-     * Set the value of id
-     *
-     * @return  self
-     */ 
+   
     public function setId($id)
     {
         $this->id = $id;
@@ -39,11 +35,7 @@ class User
         return $this->username;
     }
 
-    /**
-     * Set the value of username
-     *
-     * @return  self
-     */ 
+   
     public function setUsername($username)
     {
         $this->username = $username;
@@ -55,11 +47,7 @@ class User
         return $this->email;
     }
 
-    /**
-     * Set the value of email
-     *
-     * @return  self
-     */ 
+    
     public function setEmail($email)
     {
         $this->email = $email;
@@ -71,11 +59,7 @@ class User
         return $this->password;
     }
 
-    /**
-     * Set the value of password
-     *
-     * @return  self
-     */ 
+   
     public function setPassword($password)
     {
         $this->password = $password;

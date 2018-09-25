@@ -8,7 +8,7 @@ require_once 'loader.php';
 if ($_GET) {
 $pagina = __DIR__.'//'. $_GET['pagina'].'.php';}
 else {
-    header('Location: dogo.php?pagina=main');
+    redirect('dogo.php?pagina=main');
 }   
 
 if ($auth->check() == true) {
