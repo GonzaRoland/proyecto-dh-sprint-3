@@ -2,7 +2,9 @@
 
 include_once 'helpers.php';
 include_once 'loader.php';
-
+if (!$_GET) {
+    header('Location: dogo.php?pagina=cargaProd');
+}
 if ($auth->check() == true) 
 {
     if ($_SESSION) 
