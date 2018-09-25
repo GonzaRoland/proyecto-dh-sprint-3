@@ -449,9 +449,10 @@ p {
 
 
 .banner-form p{
+    width: 400px;
     position: relative;
     top: 325px;
-    left: 10px;
+    left: 750px;
     font-family: 'Josefin Sans', sans-serif; 
     text-align: center;
     font-size: 23px;
